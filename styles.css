@@ -11,6 +11,7 @@
     padding-left: 10%;
 }
 
+
 .container-fluid{
     display: flex;
     flex-wrap: wrap;
@@ -224,6 +225,42 @@ form{
     text-decoration: none;
     color: black;
 }
+
+
+@media(max-width:1134px){
+
+    .container-items{
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .container-items img{
+        display: none;
+    }
+
+    .feature{
+        display: block;
+        padding-bottom: 1%;
+    }
+    
+    .about-div img{
+        display: none;
+    }
+
+    .about-div{
+        width: 100%;
+    }
+
+    .pledge-container{
+        display: block;
+    }
+
+    .pledge{
+        width: 80%;
+        padding-bottom: 1%;
+    }
+}
+
 
 
 /* ---------------------------------------  S  I  G  N  I  N  ------------------------------------------------------------ */
